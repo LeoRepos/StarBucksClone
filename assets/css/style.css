@@ -55,7 +55,6 @@ input {
 .menu {
     margin: 0 2rem;
 }
-
 .title {
     font-family: 'Oswald', sans-serif;
     font-size: 96px;
@@ -66,12 +65,40 @@ input {
     margin-top: 5rem;
     margin-right: 1rem;
 }
-/* 
-aside {
-    width: 100%;
-    background-image:url('/assets/imagens/bg.jpg');
-    height: auto;
-} */
+.section-container { 
+    width: 100vw;
+    background-image: url('/assets/imagens/bg.jpg');
+    height: 100vh;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.section-container h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    font-weight: 0.1rem;
+}
+#showCase-1 {
+   width: 50vw; 
+   padding-left: 5rem;
+}
+.section-title {
+    margin-bottom: 5rem;
+}
+.section-title p {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+.card-products {
+    border: 5px solid #117050;
+    width: 170px;
+    border-radius: 9999px;
+}
+.section-options {
+    display: flex;
+    justify-content: space-between;
+}
 
 @media (max-width: 450px)  {
 
