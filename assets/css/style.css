@@ -24,14 +24,14 @@ header .line {
     margin-left: 3rem;
 }
 .header-search-menu {
-    width: 30%;
     height: 100%;
     display: flex;
-    justify-content: start;
     align-items: center;
+    margin-inline-start:auto;    
+    margin-left: auto;
 }
 .search {
-    border: 1px solid #999999;
+    border: 1px solid #d4d3d3;
     height: 40px;
     display: flex;
     align-items: center;
@@ -51,7 +51,9 @@ input {
 .menu img {
     width: 24px;
     height: 24px;
-    margin-left: 3rem;
+}
+.menu {
+    margin: 0 2rem;
 }
 
 .title {
@@ -64,7 +66,28 @@ input {
     margin-top: 5rem;
     margin-right: 1rem;
 }
-
+/* 
 aside {
-    max-width: 1140px;
+    width: 100%;
+    background-image:url('/assets/imagens/bg.jpg');
+    height: auto;
+} */
+
+@media (max-width: 450px)  {
+
+    .header--area {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+    .header-logo img {
+        width: fit-content;
+        margin-left: 0;
+    }
+    .header-search-menu {      
+        display: flex;
+        justify-content: space-around;  
+        display: none;
+    }
 }
