@@ -195,6 +195,34 @@ input {
 .paragrafo-showCase-3 {
     line-height: 1.7rem;
 }
+.section-container-ShowCase-4 {
+    display: flex;
+    height: 100vh;
+}
+.new-frappuccino {
+    flex: 1;
+    background-image: url('/assets/imagens/bg2.jpg');
+    background-size: cover;
+}
+.new-frappuccino h2 {
+    margin-top: 4em;
+    padding: 0 7rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+}
+.new-frappuccino p {
+    padding: 0.5rem 7rem;
+}
+.link-frappuccino {
+    padding: 0 7rem;
+}
+.image-girl {
+    flex: 1;
+    background-image: url('/assets/imagens/f5.jpg');
+    background-size: cover;
+}
+
+
 /* Ajustes de resposividade do menu, header e primeira section/vitrine do site */
 @media (max-width: 450px)  {
 
@@ -290,7 +318,21 @@ input {
         grid-row: 3 / 5;
         height: 50%;
     }
-    
+    .item-primeiro-showCase-3 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 5;
+    }
+
+
+
+
+
+
+
+    .section-container-ShowCase-4 {
+        display: block;
+        height: 100vh;
+    }
 
 /* Ajustes de resposividade do menu, section/vitrine do site
 para atender resoluções maiores */
