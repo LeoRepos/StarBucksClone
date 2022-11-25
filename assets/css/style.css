@@ -670,7 +670,7 @@ input {
         padding: 2rem 0;
     }
     #footer-title h5 {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         color: #FFF;
         text-align: center;
     }
@@ -683,6 +683,12 @@ input {
         align-content: center;
         width: 100%;
         justify-content: center;
+    }
+    .footer-social img {
+        width: 35px;
+        height: 35px;
+        margin-right: 1rem;
+        margin-top: 1.5rem;
     }
 
 /* Ajustes de resposividade do menu, section/vitrine do site
